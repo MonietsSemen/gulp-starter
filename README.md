@@ -5,3 +5,4 @@ SRC folder must have the below folders
 - images
 - scripts
 - scss
+-- This folders is watching
