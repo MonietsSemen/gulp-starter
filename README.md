@@ -6,3 +6,6 @@ SRC folder must have the below folders
 - images
 - scripts
 - scss
+
+Run watcher:
+- gulp serve
