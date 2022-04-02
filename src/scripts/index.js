@@ -1,5 +1,5 @@
-import dimas from './dimas.js';
-import sam from './sam.js';
-
-dimas();
-sam();
+document.addEventListener('DOMContentLoaded', function() {
+  const selectors = {};
+  
+  
+});
