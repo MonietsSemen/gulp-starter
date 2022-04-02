@@ -1,0 +1,81 @@
+.h1 {
+
+}
+.h2 {
+
+}
+.h3 {
+
+}
+.h4 {
+
+}
+.h5 {
+
+}
+.h6 {
+
+}
+
+*,
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $primary-font;
+	font-size: 16px;
+}
+
+svg {
+	path {
+		fill: currentColor;
+	}
+}
+
+//Whitespace bug
+img {
+	vertical-align: middle;
+}
+
+//Lazyload quality bug
+img[data-sizes] {
+	display: none;
+}
+
+.no-js {
+	display: none;
+}
+
+//========= CONTAINERS
+/* Default container by center */
+.container {
+	max-width: $container_width;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.container-full--right {
+	max-width: 100%;
+	width: 100%;
+	padding-left: calc(50% - ($container_width / 2));
+	margin-left: 20px;
+	
+	@media screen and (max-width: 768px) {
+		margin-left: 16px;
+	}
+}
+
+.container-full--left {
+	max-width: 100%;
+	width: 100%;
+	padding-right: calc(50% - ($container_width / 2));
+	margin-right: 20px;
+	
+	@media screen and (max-width: 768px) {
+		margin-right: 16px;
+	}
+}
